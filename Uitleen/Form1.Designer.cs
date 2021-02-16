@@ -1,7 +1,7 @@
 ﻿
 namespace Uitleen
 {
-    partial class Form1
+    partial class h
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace Uitleen
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // h
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(728, 355);
+            this.Name = "h";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
