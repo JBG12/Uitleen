@@ -1,7 +1,7 @@
 ﻿
-namespace Uitleen
+namespace Test
 {
-    partial class h
+    partial class Inleveren
     {
         /// <summary>
         /// Required designer variable.
@@ -29,38 +29,20 @@ namespace Uitleen
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // Inleveren
             // 
-            this.button1.Location = new System.Drawing.Point(277, 144);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "test test";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // h
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(469, 700);
-=======
-            this.ClientSize = new System.Drawing.Size(728, 355);
-            this.Controls.Add(this.button1);
->>>>>>> 00f43d345d31b598dd4a2a3d28d2265cc82dbfcd
-            this.Name = "h";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "Inleveren";
+            this.Text = " ";
+            this.Load += new System.EventHandler(this.Inleveren_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
     }
 }
-

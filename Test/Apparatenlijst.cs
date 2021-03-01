@@ -8,16 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Uitleen
+namespace Test
 {
-    public partial class h : Form
+    public partial class Apparatenlijst : Form
     {
-        public h()
+        public Apparatenlijst()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Apparatenlijst_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
