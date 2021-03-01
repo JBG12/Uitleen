@@ -35,7 +35,7 @@ namespace Uitleen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 355);
+            this.ClientSize = new System.Drawing.Size(469, 700);
             this.Name = "h";
             this.Text = "Form1";
             this.ResumeLayout(false);
