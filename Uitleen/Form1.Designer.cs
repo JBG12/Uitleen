@@ -38,7 +38,11 @@ namespace Uitleen
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
+<<<<<<< HEAD
             this.button1.Text = "button1";
+=======
+            this.button1.Text = "test test";
+>>>>>>> parent of c4fe4e1... Startpagina
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
