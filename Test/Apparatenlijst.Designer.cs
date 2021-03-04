@@ -32,8 +32,8 @@ namespace Test
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.toevoeg = new System.Windows.Forms.Button();
-            this.toevoegtext = new System.Windows.Forms.TextBox();
-            this.verwijdertext = new System.Windows.Forms.TextBox();
+            this.toevoegg = new System.Windows.Forms.TextBox();
+            this.verwijderr = new System.Windows.Forms.TextBox();
             this.verwijder = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -75,21 +75,21 @@ namespace Test
             this.toevoeg.UseVisualStyleBackColor = true;
             this.toevoeg.Click += new System.EventHandler(this.button1_Click);
             // 
-            // toevoegtext
+            // toevoegg
             // 
-            this.toevoegtext.Location = new System.Drawing.Point(12, 331);
-            this.toevoegtext.Name = "toevoegtext";
-            this.toevoegtext.Size = new System.Drawing.Size(126, 20);
-            this.toevoegtext.TabIndex = 12;
-            this.toevoegtext.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.toevoegg.Location = new System.Drawing.Point(12, 331);
+            this.toevoegg.Name = "toevoegg";
+            this.toevoegg.Size = new System.Drawing.Size(126, 20);
+            this.toevoegg.TabIndex = 12;
+            this.toevoegg.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // verwijdertext
+            // verwijderr
             // 
-            this.verwijdertext.Location = new System.Drawing.Point(246, 331);
-            this.verwijdertext.Name = "verwijdertext";
-            this.verwijdertext.Size = new System.Drawing.Size(126, 20);
-            this.verwijdertext.TabIndex = 14;
-            this.verwijdertext.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.verwijderr.Location = new System.Drawing.Point(246, 331);
+            this.verwijderr.Name = "verwijderr";
+            this.verwijderr.Size = new System.Drawing.Size(126, 20);
+            this.verwijderr.TabIndex = 14;
+            this.verwijderr.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // verwijder
             // 
@@ -129,9 +129,9 @@ namespace Test
             this.ClientSize = new System.Drawing.Size(400, 427);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.verwijdertext);
+            this.Controls.Add(this.verwijderr);
             this.Controls.Add(this.verwijder);
-            this.Controls.Add(this.toevoegtext);
+            this.Controls.Add(this.toevoegg);
             this.Controls.Add(this.toevoeg);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -150,8 +150,8 @@ namespace Test
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button toevoeg;
-        private System.Windows.Forms.TextBox toevoegtext;
-        private System.Windows.Forms.TextBox verwijdertext;
+        private System.Windows.Forms.TextBox toevoegg;
+        private System.Windows.Forms.TextBox verwijderr;
         private System.Windows.Forms.Button verwijder;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
