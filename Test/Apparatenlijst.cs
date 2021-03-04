@@ -57,7 +57,8 @@ namespace Test
                 if (connection.State == ConnectionState.Open)
                 {
                     connection.Close();
-                  //  LoadData();
+
+                    MessageBox.Show("Apparaat succesvol toegevoegd");
                 }
             }
         }
@@ -99,7 +100,7 @@ namespace Test
                 if (connection.State == ConnectionState.Open)
                 {
                     connection.Close();
-                    //  LoadData();
+                 
                     MessageBox.Show("Apparaat succesvol verwijderd");
                 }
             }
