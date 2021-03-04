@@ -12,13 +12,12 @@ namespace Test
 {
     public partial class Apparatenlijst : Form
     {
-        private MySqlConnection connection;
+        
 
         public Apparatenlijst()
         {
             InitializeComponent();
 
-            InitializeDatabaseConnection();
         }
 
         private void Apparatenlijst_Load(object sender, EventArgs e)
@@ -33,10 +32,25 @@ namespace Test
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void verwijder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
