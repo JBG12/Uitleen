@@ -11,3 +11,16 @@ C:\Users\Lars\source\repos\Test\Test\obj\Debug\Test.Beginpagina.resources
 C:\Users\Lars\source\repos\Test\Test\obj\Debug\Test.Uitlenen.resources
 C:\Users\Lars\source\repos\Test\Test\obj\Debug\Test.Inleveren.resources
 C:\Users\Lars\source\repos\Test\Test\obj\Debug\Test.Apparatenlijst.resources
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\bin\Debug\Test.exe.config
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\bin\Debug\Test.exe
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\bin\Debug\Test.pdb
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.Apparatenlijst.resources
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.Beginpagina.resources
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.Inleveren.resources
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.Uitlenen.resources
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.exe
+C:\Users\wouter\Source\Repos\JBG12\uitleen\Test\obj\Debug\Test.pdb
