@@ -13,13 +13,13 @@ namespace Test
 {
     public partial class Apparatenlijst : Form
     {
-        string MyConnectionString = "Server=localhost;Database=apparaten;Uid=root;Pwd=;";
+        string MyConnectionString = "Server=localhost;Database=apparatuur;Uid=root;Pwd=;";
 
         public Apparatenlijst()
         {
             InitializeComponent();
 
-        }
+        } 
 
         private void Apparatenlijst_Load(object sender, EventArgs e)
         {
@@ -43,8 +43,8 @@ namespace Test
             try
             {
                 cmd = connection.CreateCommand();
-                cmd.CommandText = "INSERT INTO lijst(apparaat)VALUES(@apparaat)";
-                cmd.Parameters.AddWithValue("@apparaat", apparaatt);
+                cmd.CommandText = "INSERT INTO lijst(apparaatnaam)VALUES(@apparaatnaam)";
+                cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt);
                 cmd.ExecuteNonQuery();
 
             }
@@ -85,8 +85,8 @@ namespace Test
             try
             {
                 cmd = connection.CreateCommand();
-                cmd.CommandText = "DELETE FROM lijst WHERE apparaat=@apparaat";
-                cmd.Parameters.AddWithValue("@apparaat", apparaata);
+                cmd.CommandText = "DELETE FROM lijst WHERE apparaatnaam=@apparaatnaam";
+                cmd.Parameters.AddWithValue("@apparaatnaam", apparaata);
                 cmd.ExecuteNonQuery();
 
             }
