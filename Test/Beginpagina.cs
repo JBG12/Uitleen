@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Test
 {
     public partial class Beginpagina : Form
     {
+
+        private MySqlConnection connection;
+
         public Beginpagina()
         {
             InitializeComponent();
+
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -45,6 +51,9 @@ namespace Test
 
         private void button3_Click(object sender, EventArgs e)
         {
+
+
+
             Apparatenlijst apparatenlijst = new Apparatenlijst(); //Maakt een nieuw exemplaar van Form2
             this.Hide(); //Hiermee wordt het oude venster verborgen 
             apparatenlijst.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
