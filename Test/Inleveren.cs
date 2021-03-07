@@ -9,39 +9,41 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace Test
+namespace uitleen
 {
-    public partial class Inleveren : Form
+    public partial class inleveren : Form
     {
         string MyConnectionString = "Server=localhost;Database=apparatuur;Uid=root;Pwd=";
-        public Inleveren()
+        public inleveren()
         {
             InitializeComponent();
         }
 
-        private void Inleveren_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void naamr_TextChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string apparaatt = naamr.Text;
+            string apparaat = apparaatt.Text;
+            string leerlingnummer = leerlingnummert.Text;
+            string opmerking = opmerkingt.Text;
 
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             MySqlCommand cmd;
@@ -50,8 +52,10 @@ namespace Test
             try
             {
                 cmd = connection.CreateCommand();
-                cmd.CommandText = "INSERT INTO lijst(apparaatnaam)VALUES(@apparaatnaam)";
-                cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt);
+                cmd.CommandText = "INSERT INTO lijst(apparaatnaam, uitlener, opmerkingen) VALUES(@apparaatnaam, @uitlener, @opmerking)";
+                cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt.Text);
+                cmd.Parameters.AddWithValue("@uitlener", leerlingnummert.Text);
+                cmd.Parameters.AddWithValue("@opmerking", opmerkingt.Text);
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -68,42 +72,22 @@ namespace Test
                     MessageBox.Show("U heeft uw apparaat met succes ingeleverd");
                 }
             }
-
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void leerlingnummer_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void apparaat_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void opmerking_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
     }
 }
+
