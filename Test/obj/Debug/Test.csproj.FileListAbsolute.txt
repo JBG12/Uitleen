@@ -64,10 +64,8 @@ C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.csproj.CoreCompileInputs
 C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.exe
 C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.pdb
-<<<<<<< HEAD
 >>>>>>> 907e2f6480d87149454ce39dc97f70bd2b59f02a
 C:\Users\wouter\source\repos\JBG12\uitleen\Test\obj\Debug\uitleen.Form1.resources
-=======
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\bin\Debug\Test.exe.config
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\bin\Debug\Test.exe
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\bin\Debug\Test.pdb
@@ -107,3 +105,14 @@ C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Debug\Test.exe
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Debug\Test.pdb
 >>>>>>> e80f58ba746d267e2a72f77af87237277e328d96
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Debug\uitleen.inleveren.resources
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.Apparatenlijst.resources
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.Beginpagina.resources
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\uitleen.inleveren.resources
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.Uitlenen.resources
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.exe
+C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.pdb

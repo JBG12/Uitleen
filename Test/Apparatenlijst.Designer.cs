@@ -143,7 +143,7 @@ namespace Test
             this.Lijst.Location = new System.Drawing.Point(24, 218);
             this.Lijst.Margin = new System.Windows.Forms.Padding(6);
             this.Lijst.Name = "Lijst";
-            this.Lijst.Size = new System.Drawing.Size(716, 356);
+            this.Lijst.Size = new System.Drawing.Size(738, 356);
             this.Lijst.TabIndex = 17;
             this.Lijst.UseCompatibleStateImageBehavior = false;
             this.Lijst.View = System.Windows.Forms.View.Details;
@@ -156,7 +156,7 @@ namespace Test
             // 
             // uitgeleend
             // 
-            this.uitgeleend.Text = "Uitgeleend";
+            this.uitgeleend.Text = "Status";
             this.uitgeleend.Width = 150;
             // 
             // uitlener

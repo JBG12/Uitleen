@@ -47,6 +47,8 @@ namespace Test
                 cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt);
                 cmd.CommandText = "UPDATE lijst SET uitlener=(@uitgeleend) WHERE apparaatnaam=(@apparaatnaam)";
                 cmd.Parameters.AddWithValue("@uitgeleend", nummerr);
+                cmd.CommandText = "UPDATE lijst SET uitgeleend=(@setstatus)";
+                cmd.Parameters.AddWithValue("@setstatus", "Uitgeleend ✗");
                 cmd.ExecuteNonQuery();
 
             }
@@ -63,6 +65,21 @@ namespace Test
                     MessageBox.Show("Apparaat succesvol uitgeleend");
                 }
             }
+        }
+
+        private void apparaatr_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nummert_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -102,6 +102,7 @@ namespace Test
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             string sqlQuery = "SELECT * FROM lijst";
 
+            connection.Open();
             // Maak een lijst aan voor 3 posities ('Apparaatnaam', 'Uitgeleend-status', 'Uitlener')
             List<string>[] resultlist = new List<string>[3];
             resultlist[0] = new List<string>();
