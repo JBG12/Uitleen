@@ -14,8 +14,7 @@ namespace Test
     public partial class Beginpagina : Form
     {
 
-        private MySqlConnection connection;
-
+        
         public Beginpagina()
         {
             InitializeComponent();
@@ -25,9 +24,9 @@ namespace Test
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Inleveren inleveren = new Inleveren(); //Maakt een nieuw exemplaar van Form2
-            this.Hide(); //Hiermee wordt het oude venster verborgen 
-            inleveren.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
+            inleveren Inleveren = new inleveren(); //Maakt een nieuw exemplaar van Form2
+           this.Hide(); //Hiermee wordt het oude venster verborgen 
+            Inleveren.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
             this.Close(); //Hiermee wordt het oude venster gesloten
         }
 
@@ -43,9 +42,9 @@ namespace Test
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Uitlenen uitlenen = new Uitlenen(); //Maakt een nieuw exemplaar van Form2
+            Uitleen uitleen = new Uitleen(); //Maakt een nieuw exemplaar van Form2
             this.Hide(); //Hiermee wordt het oude venster verborgen 
-            uitlenen.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
+            uitleen.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
             this.Close(); //Hiermee wordt het oude venster gesloten
         }
 
