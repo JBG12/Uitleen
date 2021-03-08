@@ -214,7 +214,7 @@ namespace Test
                 {
                     alleInfo[0][i],    // toevoegen van de apparaatnaam
                     alleInfo[1][i],     // toevoegen van de uitleen status
-                    alleInfo[2][i]     // toevoegen van de uitlener
+                    alleInfo[2][i],     // toevoegen van de uitlener
                     alleInfo[3][i]     // toevoegen van eventuele opmerkingen
                 });
 
