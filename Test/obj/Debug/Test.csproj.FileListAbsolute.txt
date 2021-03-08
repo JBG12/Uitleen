@@ -116,3 +116,5 @@ C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csproj.Genera
 C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.exe
 C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.pdb
+C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\uitleen.inleveren.resources
+C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.Uitleen.resources
