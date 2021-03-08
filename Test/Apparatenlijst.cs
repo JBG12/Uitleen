@@ -108,6 +108,7 @@ namespace Test
             resultlist[0] = new List<string>();
             resultlist[1] = new List<string>();
             resultlist[2] = new List<string>();
+            resultlist[3] = new List<string>();
 
             // Open de connectie naar de database om gegevens op te halen.
             if (this.OpenConnection() == true)
@@ -124,6 +125,7 @@ namespace Test
                     resultlist[0].Add(dataReader["apparaatnaam"] + "");
                     resultlist[1].Add(dataReader["uitgeleend"] + "");
                     resultlist[2].Add(dataReader["uitlener"] + "");
+                    resultlist[3].Add(dataReader["opmerkingen"] + "");
                 }
 
                 // We zijn klaar met het lezen dus we kunnen hier de datareader sluiten.
@@ -213,6 +215,7 @@ namespace Test
                     alleInfo[0][i],    // toevoegen van de apparaatnaam
                     alleInfo[1][i],     // toevoegen van de uitleen status
                     alleInfo[2][i]     // toevoegen van de uitlener
+                    alleInfo[3][i]     // toevoegen van eventuele opmerkingen
                 });
 
                 // nu we een onderdeel hebben aangemaakt, voeg nu het onderdeel toe aan de bestaande lijst.
