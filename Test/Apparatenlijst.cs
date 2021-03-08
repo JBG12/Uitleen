@@ -104,7 +104,7 @@ namespace Test
 
             connection.Open();
             // Maak een lijst aan voor 3 posities ('Apparaatnaam', 'Uitgeleend-status', 'Uitlener')
-            List<string>[] resultlist = new List<string>[3];
+            List<string>[] resultlist = new List<string>[4];
             resultlist[0] = new List<string>();
             resultlist[1] = new List<string>();
             resultlist[2] = new List<string>();
