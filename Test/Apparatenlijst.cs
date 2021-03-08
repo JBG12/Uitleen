@@ -47,6 +47,8 @@ namespace Test
                 cmd.CommandText = "INSERT INTO lijst(apparaatnaam)VALUES(@apparaatnaam)";
                 cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt);
                 cmd.ExecuteNonQuery();
+                cmd.CommandText = "UPDATE lijst SET uitgeleend='Beschikbaar' WHERE apparaatnaam=(@apparaatnaam)";
+                cmd.ExecuteNonQuery();
 
             }
             catch (Exception ex)
