@@ -104,7 +104,7 @@ namespace Test
 
             connection.Open();
             // Maak een lijst aan voor 3 posities ('Apparaatnaam', 'Uitgeleend-status', 'Uitlener')
-            List<string>[] resultlist = new List<string>[3];
+            List<string>[] resultlist = new List<string>[4];
             resultlist[0] = new List<string>();
             resultlist[1] = new List<string>();
             resultlist[2] = new List<string>();
@@ -125,7 +125,7 @@ namespace Test
                     resultlist[0].Add(dataReader["apparaatnaam"] + "");
                     resultlist[1].Add(dataReader["uitgeleend"] + "");
                     resultlist[2].Add(dataReader["uitlener"] + "");
-                    resultlist[3].Add(dataReader["opmerkingen"] + "");
+                    resultlist[3].Add(dataReader["opmerking"] + "");
                 }
 
                 // We zijn klaar met het lezen dus we kunnen hier de datareader sluiten.
