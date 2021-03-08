@@ -61,5 +61,10 @@ namespace Test
             beginpagina.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
             this.Close(); //Hiermee wordt het oude venster gesloten
         }
+
+        private void nummert_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

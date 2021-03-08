@@ -85,6 +85,7 @@ namespace Test
             this.nummert.Name = "nummert";
             this.nummert.Size = new System.Drawing.Size(126, 20);
             this.nummert.TabIndex = 24;
+            this.nummert.TextChanged += new System.EventHandler(this.nummert_TextChanged);
             // 
             // button1
             // 

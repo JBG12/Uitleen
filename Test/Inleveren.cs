@@ -52,7 +52,9 @@ namespace Test
             try
             {
                 cmd = connection.CreateCommand();
-                cmd.CommandText = "INSERT INTO lijst(apparaatnaam, uitlener, opmerkingen) VALUES(@apparaatnaam, @uitlener, @opmerking)";
+                cmd.CommandText = "UPDATE lijst SET uitgeleend='beschikbaar' WHERE apparaatnaam=(@apparaatnaam)";
+                cmd.CommandText = "UPDATE lijst SET uitlener=(@uitlener) WHERE apparaatnaam=(@apparaatnaam)";
+                cmd.CommandText = "UPDATE lijst SET opmerkingen=(@opmerking) WHERE apparaatnaam=(@apparaatnaam)";
                 cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt.Text);
                 cmd.Parameters.AddWithValue("@uitlener", leerlingnummert.Text);
                 cmd.Parameters.AddWithValue("@opmerking", opmerkingt.Text);
