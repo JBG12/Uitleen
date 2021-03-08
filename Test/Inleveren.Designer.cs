@@ -1,7 +1,7 @@
 ﻿
-namespace uitleen
+namespace Test
 {
-    partial class inleveren
+    partial class Inleveren
     {
         /// <summary>
         /// Required designer variable.
@@ -162,7 +162,7 @@ namespace uitleen
             this.label1.Text = "Uitleensregistratiesysteem";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // inleveren
+            // Inleveren
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,7 +178,7 @@ namespace uitleen
             this.Controls.Add(this.apparaatt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Name = "inleveren";
+            this.Name = "Inleveren";
             this.Text = "inleveren";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

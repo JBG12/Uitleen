@@ -24,9 +24,9 @@ namespace Test
 
         private void button2_Click(object sender, EventArgs e)
         {
-            inleveren Inleveren = new inleveren(); //Maakt een nieuw exemplaar van Form2
+            Inleveren inleveren = new Inleveren(); //Maakt een nieuw exemplaar van Form2
            this.Hide(); //Hiermee wordt het oude venster verborgen 
-            Inleveren.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
+            inleveren.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
             this.Close(); //Hiermee wordt het oude venster gesloten
         }
 

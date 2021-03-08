@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace uitleen
+namespace Test
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace uitleen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new inleveren());
+            Application.Run(new Inleveren());
         }
     }
 }

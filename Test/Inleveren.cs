@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace uitleen
+namespace Test
 {
-    public partial class inleveren : Form
+    public partial class Inleveren : Form
     {
         string MyConnectionString = "Server=localhost;Database=apparatuur;Uid=root;Pwd=";
-        public inleveren()
+        public Inleveren()
         {
             InitializeComponent();
         }
