@@ -93,6 +93,14 @@ namespace Test
         {
 
         }
+
+        private void terugg_Click(object sender, EventArgs e)
+        {
+            Beginpagina beginpagina = new Beginpagina(); //Maakt een nieuw exemplaar van Form2
+            this.Hide(); //Hiermee wordt het oude venster verborgen 
+            beginpagina.ShowDialog(); //Hiermee laat je het opgevraagde venster zien 
+            this.Close(); //Hiermee wordt het oude venster gesloten
+        }
     }
 }
 

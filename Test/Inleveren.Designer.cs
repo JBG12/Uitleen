@@ -41,6 +41,7 @@ namespace Test
             this.opmerkingt = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.terugg = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -84,6 +85,7 @@ namespace Test
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.terugg);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Location = new System.Drawing.Point(3, 59);
             this.panel1.Name = "panel1";
@@ -162,6 +164,17 @@ namespace Test
             this.label1.Text = "Uitleensregistratiesysteem";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
+            // terugg
+            // 
+            this.terugg.AutoEllipsis = true;
+            this.terugg.Location = new System.Drawing.Point(9, 324);
+            this.terugg.Name = "terugg";
+            this.terugg.Size = new System.Drawing.Size(101, 55);
+            this.terugg.TabIndex = 13;
+            this.terugg.Text = "terug naar beginscherm";
+            this.terugg.UseVisualStyleBackColor = true;
+            this.terugg.Click += new System.EventHandler(this.terugg_Click);
+            // 
             // Inleveren
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,6 +216,7 @@ namespace Test
         private System.Windows.Forms.TextBox opmerkingt;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button terugg;
     }
 }
 
