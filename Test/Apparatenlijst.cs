@@ -13,13 +13,14 @@ namespace Test
 {
     public partial class Apparatenlijst : Form
     {
-        string MyConnectionString = "Server=localhost;Database=apparaten;Uid=root;Pwd=;";
+        string MyConnectionString = "Server=localhost;Database=apparatuur;Uid=root;Pwd=;";
+
 
         public Apparatenlijst()
         {
             InitializeComponent();
 
-        }
+        } 
 
         private void Apparatenlijst_Load(object sender, EventArgs e)
         {
@@ -43,8 +44,8 @@ namespace Test
             try
             {
                 cmd = connection.CreateCommand();
-                cmd.CommandText = "INSERT INTO lijst(apparaat)VALUES(@apparaat)";
-                cmd.Parameters.AddWithValue("@apparaat", apparaatt);
+                cmd.CommandText = "INSERT INTO lijst(apparaatnaam)VALUES(@apparaatnaam)";
+                cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt);
                 cmd.ExecuteNonQuery();
 
             }
@@ -63,7 +64,6 @@ namespace Test
             }
         }
 
-<<<<<<< HEAD
         private bool OpenConnection()
         {
             try
@@ -142,8 +142,6 @@ namespace Test
             }
         }
 
-=======
->>>>>>> parent of ba655aa (mmhhh)
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -166,8 +164,8 @@ namespace Test
             try
             {
                 cmd = connection.CreateCommand();
-                cmd.CommandText = "DELETE FROM lijst WHERE apparaat=@apparaat";
-                cmd.Parameters.AddWithValue("@apparaat", apparaata);
+                cmd.CommandText = "DELETE FROM lijst WHERE apparaatnaam=@apparaatnaam";
+                cmd.Parameters.AddWithValue("@apparaatnaam", apparaata);
                 cmd.ExecuteNonQuery();
 
             }
@@ -190,6 +188,37 @@ namespace Test
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void Lijst_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            // maak eerst de bestaande lijst met gegevens leeg.
+            Lijst.Items.Clear();
+
+            // Roep de functie aan die alle apparaten ophaalt uit de database.
+            List<string>[] alleInfo = GetInfoDB();
+
+            // Doorloop alle resultaten en voeg iedere gebruiker toe aan de lijst.
+            for (int i = 0; i < alleInfo[0].Count; i++)
+            {
+                // Maak eerste een listview onderdeel (item) aan en vul deze met de voornaam en achternaam.
+                ListViewItem newItem = new ListViewItem(new string[]
+                {
+                    alleInfo[0][i],    // toevoegen van de apparaatnaam
+                    alleInfo[1][i],     // toevoegen van de uitleen status
+                    alleInfo[2][i]     // toevoegen van de uitlener
+                });
+
+                // nu we een onderdeel hebben aangemaakt, voeg nu het onderdeel toe aan de bestaande lijst.
+                Lijst.Items.Add(newItem);
+            }
+
 
         }
     }

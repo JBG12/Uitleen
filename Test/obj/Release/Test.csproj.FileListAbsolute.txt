@@ -1,0 +1,8 @@
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.csprojAssemblyReference.cache
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.Apparatenlijst.resources
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.Beginpagina.resources
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.Inleveren.resources
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.Properties.Resources.resources
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.Uitlenen.resources
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.csproj.GenerateResource.cache
+C:\Users\Lars\Documents\GitHub\Uitleen\Test\obj\Release\Test.csproj.CoreCompileInputs.cache

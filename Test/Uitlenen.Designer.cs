@@ -29,9 +29,17 @@ namespace Test
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.nummert = new System.Windows.Forms.TextBox();
+            this.uitleen = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.apparaatr = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -120,14 +128,12 @@ namespace Test
             this.apparaatr.TabIndex = 20;
             this.apparaatr.TextChanged += new System.EventHandler(this.apparaatr_TextChanged);
             // 
-=======
->>>>>>> parent of ba655aa (mmhhh)
             // Uitlenen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 443);
 <<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(771, 443);
 =======
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 725);
@@ -142,19 +148,19 @@ namespace Test
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 =======
 >>>>>>> e80f58ba746d267e2a72f77af87237277e328d96
-=======
->>>>>>> parent of ba655aa (mmhhh)
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 
             this.Name = "Uitlenen";
             this.Text = "Uilenen";
             this.Load += new System.EventHandler(this.Uitlenen_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-<<<<<<< HEAD
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
@@ -165,7 +171,5 @@ namespace Test
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox apparaatr;
         private int ba655aaddfb8b29a520e4670e3fe82821774f367;
-=======
->>>>>>> parent of ba655aa (mmhhh)
     }
 }
