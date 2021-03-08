@@ -42,7 +42,7 @@ namespace Test
         private void button1_Click(object sender, EventArgs e)
         {
             string apparaat = apparaatt.Text;
-            string leerlingnummer = leerlingnummert.Text;
+            string uitlener = leerlingnummert.Text;
             string opmerking = opmerkingt.Text;
 
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
@@ -53,11 +53,16 @@ namespace Test
             {
                 cmd = connection.CreateCommand();
                 cmd.CommandText = "UPDATE lijst SET uitgeleend='beschikbaar' WHERE apparaatnaam=(@apparaatnaam)";
-                cmd.CommandText = "UPDATE lijst SET uitlener=(@uitlener) WHERE apparaatnaam=(@apparaatnaam)";
-                cmd.CommandText = "UPDATE lijst SET opmerkingen=(@opmerking) WHERE apparaatnaam=(@apparaatnaam)";
                 cmd.Parameters.AddWithValue("@apparaatnaam", apparaatt.Text);
+                cmd.ExecuteNonQuery();
+                cmd.CommandText = "UPDATE lijst SET uitlener=(@uitlener) WHERE apparaatnaam=(@apparaatnaam)";
                 cmd.Parameters.AddWithValue("@uitlener", leerlingnummert.Text);
+                cmd.ExecuteNonQuery();
+                cmd.CommandText = "UPDATE lijst SET opmerking=(@opmerking) WHERE apparaatnaam=(@apparaatnaam)";
                 cmd.Parameters.AddWithValue("@opmerking", opmerkingt.Text);
+                cmd.ExecuteNonQuery();
+            
+   
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
