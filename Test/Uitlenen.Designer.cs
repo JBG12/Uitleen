@@ -149,7 +149,7 @@ namespace Test
 =======
 >>>>>>> e80f58ba746d267e2a72f77af87237277e328d96
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
->>>>>>> ba655aaddfb8b29a520e4670e3fe82821774f367
+
             this.Name = "Uitlenen";
             this.Text = "Uilenen";
             this.Load += new System.EventHandler(this.Uitlenen_Load);
