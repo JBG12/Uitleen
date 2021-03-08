@@ -30,11 +30,31 @@ namespace Test
 
         }
 
-        private void uitleen_Click(object sender, EventArgs e)
+        private void apparaatr_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nummert_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
             string nummerr = nummert.Text;
             string apparaatt = apparaatr.Text;
-           
+
 
             MySqlConnection connection = new MySqlConnection(MyConnectionString);
             MySqlCommand cmd;
@@ -65,21 +85,6 @@ namespace Test
                     MessageBox.Show("Apparaat succesvol uitgeleend");
                 }
             }
-        }
-
-        private void apparaatr_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void nummert_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
