@@ -66,6 +66,7 @@ C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.exe
 C:\Users\jbjel\source\repos\Uitleen\Test\obj\Debug\Test.pdb
 >>>>>>> 907e2f6480d87149454ce39dc97f70bd2b59f02a
 C:\Users\wouter\source\repos\JBG12\uitleen\Test\obj\Debug\uitleen.Form1.resources
+<<<<<<< HEAD
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\bin\Debug\Test.exe.config
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\bin\Debug\Test.exe
 C:\Users\Lars\Documents\GitHub\Uitleen\Test\bin\Debug\Test.pdb
@@ -116,3 +117,5 @@ C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csproj.Genera
 C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.exe
 C:\Users\Lars\Documents\GitHub\Uitleen - kopie\Test\obj\Debug\Test.pdb
+=======
+>>>>>>> parent of ba655aa (mmhhh)
