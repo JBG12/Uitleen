@@ -208,10 +208,10 @@ namespace Test
             // Roep de functie aan die alle apparaten ophaalt uit de database.
             List<string>[] alleInfo = GetInfoDB();
 
-            // Doorloop alle resultaten en voeg iedere gebruiker toe aan de lijst.
+            // Doorloop alle resultaten en voeg iedere info toe aan de lijst.
             for (int i = 0; i < alleInfo[0].Count; i++)
             {
-                // Maak eerste een listview onderdeel (item) aan en vul deze met de voornaam en achternaam.
+                
                 ListViewItem newItem = new ListViewItem(new string[]
                 {
                     alleInfo[0][i],    // toevoegen van de apparaatnaam
@@ -220,7 +220,7 @@ namespace Test
                     alleInfo[3][i]     // toevoegen van eventuele opmerkingen
                 });
 
-                // nu we een onderdeel hebben aangemaakt, voeg nu het onderdeel toe aan de bestaande lijst.
+                // Voegt het onderdeel toe aan de bestaande lijst.
                 Lijst.Items.Add(newItem);
             }
 
