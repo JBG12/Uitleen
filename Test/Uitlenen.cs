@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Test
 {
     public partial class Uitlenen : Form
     {
+        string MyConnectionString = "Server=localhost;Database=apparatuur;Uid=root;Pwd=;";
+
         public Uitlenen()
         {
             InitializeComponent();
@@ -21,7 +24,6 @@ namespace Test
         {
 
         }
-<<<<<<< HEAD
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -79,7 +81,5 @@ namespace Test
         {
 
         }
-=======
->>>>>>> parent of ba655aa (mmhhh)
     }
 }
